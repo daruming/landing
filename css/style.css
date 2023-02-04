@@ -166,10 +166,6 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
 
-@font-face {
-  font-family: "suit";
-  src: url("Template/html/css/fonts");
-}
 #loader-overflow{
   display:block;
   width: 100%;
@@ -868,7 +864,7 @@ support for no js
 }
 .norm-16-wide{
 	font-family: 'Lato',Arial,Helvetica,sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 18px;
 	font-weight: 300;
   letter-spacing:3px;
@@ -1021,7 +1017,10 @@ support for no js
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
-	img, video {
+	img {
+    height: auto;
+  }
+  video {
 		max-width: 100%;
 		height: auto;
 	}	
@@ -1062,6 +1061,18 @@ support for no js
 	width:100px;
 	background:#4b4e53;
 }
+.line-3-200{
+	margin-top:15px;
+	height:3px;
+	width:200px;
+	background:#4b4e53;
+}
+.line-3-300{
+	margin-top:15px;
+	height:3px;
+	width:300px;
+	background:#4b4e53;
+}
 .fes1-box{
   position:relative;
 	padding-left: 55px;
@@ -1069,6 +1080,12 @@ support for no js
 }
 .fes1-box-icon{
 	position:absolute;
+	top: 0;
+	left: 0;
+	color:#4b4e53;
+	font-size: 35px;
+}
+.fes1-box-icon2{
 	top: 0;
 	left: 0;
 	color:#4b4e53;
@@ -1098,6 +1115,11 @@ support for no js
   margin: 0 auto;
   padding: 145px 50px 140px 50px;
   max-width:500px; 
+}
+.fes3-main-text-cont {
+  margin: 0 auto;
+  padding: 145px 50px 140px 50px;
+  max-width:700px; 
 }
 .fes2-text-cont{
 	margin-top:30px;
@@ -1149,8 +1171,8 @@ support for no js
 /* #FEATURES 4 #NEW
 =====================================================*/
 .fes4-cont{
-  padding-top:130px;
-	padding-bottom:80px;
+  padding-top:0px;
+	padding-bottom:0px;
 }
 .fes4-box{
   margin-bottom:50px;
@@ -1176,11 +1198,11 @@ support for no js
 }
 .section-title {
   margin:0;
-  padding:0px 0px 0px 25px;
-  font-family: 'suit';
+  padding:22px 25px 24px 25px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight:300;
 	font-size:30px;
-	line-height:42px;
+	line-height:36px;
 	color:#4b4e53; 
   border-left:#4b4e53 2px solid;
 }
@@ -2223,11 +2245,11 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 /* #COUNTERS 1 #NEW
 =====================================================*/
 .count-number{
-  margin-top: 17px;
+  margin-top: 0px;
   font-size:45px;
   line-height:45px;
   color:#4b4e53;
-  font-weight:800;
+  font-weight:100;
 }
 .count-title {
   font-size:14px;
@@ -2251,8 +2273,31 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 /* #ADS 1 & 2 #NEW
 =====================================================*/
 .ads-img-cont {
-  padding-top:50px;
-  padding-bottom:45px;
+  padding-top:200px;
+  padding-bottom:0px;
+  transform:translate(-20%, 0%);
+}
+
+
+@media only screen and (max-width: 992px) {
+  .ads-img-cont {
+    padding-top:0px;
+    padding-bottom:0px;
+    transform:translate(0%, 0%);
+  }
+}
+
+.ads-img-cont2 {
+  padding-top:60px;
+  padding-bottom:0px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .ads-img-cont2 {
+    padding-top:0px;
+    padding-bottom:0px;
+  }
 }
 
 /* #VIDEO ADS 1 #NEW
@@ -2271,8 +2316,8 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   font-family: 'Lato',Arial,Helvetica,sans-serif; 
   font-size:36px;
   line-height:36px;
-  font-weight:400;
-  color:#fff;
+  font-weight:100;
+  color:#f1f1f1;
 }
 .video-ads-a a:hover{
   color:#a5a5a5;
@@ -2671,8 +2716,13 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   display: table-cell;
   height: 100%;
   vertical-align: middle;
+  text-align: center;
 }
+@media (max-width: 767px) {
+.sm-cont-middle {
 
+}
+}
 /***** BG VIDEO *****/
 .sm-video-wrapper{
   position: absolute;
@@ -3260,8 +3310,8 @@ select.input-border {
 	color:#4b4e53; 
 }
 .black-header #main-menu .navbar .nav > li.current > a, .header-black-white #main-menu .navbar .nav > li.current > a {
-	border-bottom: 2px solid rgba(255,255,255,1);
-	color:#fff; 
+	border-bottom: 2px solid aqua;
+	color:aqua;
 }
 .affix.header-1 #main-menu .navbar .nav > li.current > a{
   margin-bottom: 13px;
@@ -3326,7 +3376,7 @@ select.input-border {
   color:#111; 
 }
 .black-header #main-menu .navbar .nav > li:hover > a, .header-black-white #main-menu .navbar .nav > li:hover > a {
-  color:#fff; 
+  color: aqua;
 }
 #main-menu .navbar .nav .parent {
   position: relative;
@@ -3748,7 +3798,7 @@ background:none;
 	box-shadow: 0 1px 15px rgba(0,0,0, .15);
 }
 .affix.black-header .header-wrapper {
-	background: #303236;
+	background: #000;
 }
 #nav-below.header {
 	position:relative;

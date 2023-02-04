@@ -27,6 +27,11 @@
     font-size: 4.4rem;
     font-weight: 300;
   }
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 1170px) {
   .cd-headline {
@@ -36,7 +41,7 @@
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 .cd-words-wrapper b {
   display: inline-block;
