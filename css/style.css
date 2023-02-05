@@ -280,7 +280,7 @@ body {
 	font-size: 14px;
 	line-height: 25px;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
-	font-weight: normal;
+	font-weight: light;
 	color: #7e8082;
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased !important;
@@ -297,17 +297,17 @@ body {
 }
 ::-moz-selection
 {
-	background-color: #ffea00;
+	background-color: aqua;
   color:#4b4e53;
 }
 ::selection
 {
-	background-color: #ffea00;
+	background-color: aqua;
   color:#4b4e53;
 }
 ::-moz-selection  
 {
-	background-color: #ffea00;
+	background-color: aqua;
   color:#4b4e53;
 }
 .relative {
@@ -988,6 +988,7 @@ support for no js
 	height: 40px;
 	position:absolute;
 	bottom: 0;
+  top: 90%;
 	left: 50%;
 	margin-left: -20px;
 	text-align: center;
@@ -1143,7 +1144,7 @@ support for no js
 	color:#4b4e53;
 	font-family: 'Lato',Arial,Helvetica,sans-serif;
 	font-size: 45px;
-	line-height: 45px;
+	line-height: 55px;
 	font-weight: 300;
 }
 .fes3-img {
@@ -1421,7 +1422,7 @@ support for no js
 	background-color:#303236;
 }
 .yellow-bg{
-	background-color:#ffea00 !important;
+	background-color:aqua !important;
 }
 .font-black {
   color:#4b4e53 !important;
@@ -1683,7 +1684,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   width:60px;
   text-align:center;
   border-radius:50%;
-  background:#ffea00;
+  background:aqua;
   color:#4b4e53;
 }
 .shop-add-btn {
@@ -2585,7 +2586,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 =====================================================*/
 .cis-cont{
   position: relative;
-  padding-left: 65px;
+  /*padding-left: 65px;*/
 }
 .cis-icon {
   position: absolute;
@@ -2595,8 +2596,9 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   font-size: 35px;
 }
 .cis-text  {
-  padding:16px 0px 18px 27px;
+  /*padding:16px 0px 18px 27px;
   border-left:1px solid #dedede;
+  */
 }
 .grey-light-bg .cis-text  {
   border-left:1px solid #bdbdbd;
@@ -4192,7 +4194,7 @@ blockquote.custom-blockquote {
 	padding: 25px 20px 19px 26px;
 	position:relative;
 	background-color:#f8f8f8;
-  border-left: 40px solid #ffea00;
+  border-left: 40px solid aqua;
 }
 blockquote.custom-blockquote:before {
 	z-index:9;
@@ -4223,7 +4225,7 @@ blockquote.custom-blockquote:before {
 	left:0;
 }
 .ts-icon-container {
-	background-color:#ffea00;
+	background-color: aqua;
 	width:85px;
 	height:85px;
 	opacity:1;
@@ -4616,7 +4618,7 @@ blockquote.custom-blockquote:before {
 	transition: all .3s ease 0s;
 }
 .blog-categories li a:hover .blog-cat-icon{
-	background-color:#ffea00;
+	background-color: aqua;
 	height:48px;
 	width:48px;
 	line-height:46px;
@@ -4632,7 +4634,7 @@ blockquote.custom-blockquote:before {
 	transition: all .3s ease 0s;
 }
 .blog-categories li.current .blog-cat-icon{
-	background-color:#ffea00;
+	background-color:aqua;
 	height:48px;
 	width:48px;
 	line-height:46px;
@@ -5088,7 +5090,7 @@ ul#portfolio {
   text-align: center;
 }
 .dropcap4 {
-	background: none repeat scroll 0 0 #ffea00;
+	background: none repeat scroll 0 0 aqua;
   color: #fff;
   display: inline-block;
   float: left;
@@ -5353,7 +5355,7 @@ hr.invisible {
 
 /***** #HIGHLIGHTS *****/
 .highlight-text, .highlight-text-grey {
-	background-color: #ffea00;
+	background-color: aqua;
   color:#4b4e53;
 	padding: 0 3px;
 }
@@ -5451,7 +5453,7 @@ pre {
     font-size: 25px;
   }
   .cis-cont {
-    padding-left: 50px;
+    /*padding-left: 50px;*/
   }
   /*****  #CONTACT FORM NEW *****/
   .contact-form-cont {
@@ -5469,7 +5471,7 @@ button {
   transition: all .3s ease 0s;
 }
 .button {
-	background-color:#ffea00;
+	background-color:aqua;
 	color:#4b4e53;
 	border:none;
 	border-radius:2px;
@@ -5712,9 +5714,9 @@ button {
 	transition: all .3s ease 0s;
 }
 .button.thin-bg-dark:hover {
-	background-color:#ffea00 !important;
+	background-color:aqua !important;
 	color:#4b4e53 !important;
-	border: 2px solid #ffea00 !important;
+	border: 2px solid aqua !important;
 	-webkit-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
 	transition: all .3s ease 0s;
@@ -5722,11 +5724,11 @@ button {
 
 /*****  #BUTTONS THIN COLORS  *****/
 .button.thin.yellow{
-	border-color:#ffea00;
-	color:#ffea00;
+	border-color:aqua;
+	color:aqua;
 }
 .button.thin.yellow:hover {
-	background-color:#ffea00;
+	background-color:aqua;
 	color:#4b4e53;
 }
 .button.thin.blue {
@@ -5804,7 +5806,7 @@ button {
 
 /*****	#HOVER THIN BUTTONS		*****/
 .button.hover-thin  {
-	border: 2px solid #ffea00;
+	border: 2px solid aqua;
 	-webkit-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
 	transition: all .3s ease 0s;
@@ -5826,12 +5828,12 @@ button {
 
 /*****	#HOVER THIN BUTTONS COLORS		*****/
 .button.yellow.hover-thin {
-	border-color: #ffea00;
+	border-color: aqua;
 }
 .button.yellow.hover-thin:hover {
 	background:none;
-	border: 2px solid #ffea00;
-	color:#ffea00;
+	border: 2px solid aqua;
+	color:aqua;
 }
 .button.blue.hover-thin {
 	border-color: #37a2d6;
@@ -5900,9 +5902,9 @@ button {
 /*****	#THIN-INV BUTTON	*****/
 .button.thin-inv, .button.thin-inv-bg-dark {
 	display:inline-block;
-	background-color:#ffea00 !important;
+	background-color:aqua !important;
 	color:#fff !important;
-	border: 2px solid #ffea00 !important;	
+	border: 2px solid aqua !important;	
 
 	-webkit-transition: all .3s ease 0s;	
 
@@ -5937,7 +5939,7 @@ button {
 }
 /*****  #BUTTONS COLORS  *****/
 .button.yellow {
-	background-color:#ffea00;
+	background-color:aqua;
 	color:#4b4e53;
 }
 .button.yellow:hover {
@@ -6097,8 +6099,8 @@ a:hover, a:focus {
 .button.get-theme {
 	font-size:14px;
 	padding:10px 17px 10px 40px;
-	background-color:#ffea00;
-	background: url(../images/icon-get-theme.png) no-repeat scroll 14px center, #ffea00;
+	background-color:aqua;
+	background: url(../images/icon-get-theme.png) no-repeat scroll 14px center, aqua;
 	display:inline-block;
   border-bottom: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
@@ -6503,7 +6505,7 @@ a:hover, a:focus {
 	background:url(../images/f-box4-bg.png) left top repeat ;
 }
 .counter-bg-color {
-	background:#ffea00 ;
+	background:aqua ;
 }
 .stat {
 	padding-top: 40px;
@@ -6620,7 +6622,7 @@ h3.ui-accordion-header:first-child {
 	transition: all .3s ease 0s;
 }
 .ui-accordion-header:hover span{
-	background-color: #ffea00;
+	background-color: aqua;
 	-webkit-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
 	transition: all .3s ease 0s;
@@ -6629,7 +6631,7 @@ h3.ui-accordion-header:first-child {
   color:#4b4e53;
 }
 .ui-accordion-header-active span {
-	background-color: #ffea00;
+	background-color: aqua;
 }
 .ui-accordion-header-active span:before {
 	content:'–';
@@ -6914,15 +6916,15 @@ h3.ui-accordion-header:first-child {
 	border-left:2px solid #4b4e53;
 }
 .pt-best .pt-content-container {
-	border-right:2px solid #ffea00;
-	border-left:2px solid #ffea00;
+	border-right:2px solid aqua;
+	border-left:2px solid aqua;
 }
 .pt-best .pt-h1-container {
-	border:2px solid #ffea00;
+	border:2px solid aqua;
 	border-bottom:none;
 }
 .pt-best .price-container {
-	background:#ffea00;
+	background:aqua;
 	color:#4b4e53;
 }
 .pt-best .currency, .pt-best .price, .pt-best .cents , .pt-best .place2{
@@ -7080,7 +7082,7 @@ a.button.medium.price-button {
   padding-top: 41px;
 	height: 49px;
 	display: block;
-	background-color: #ffea00;
+	background-color: aqua;
 	color: #414146;
 	text-transform: uppercase;
 	font-size: 24px;
@@ -7216,11 +7218,11 @@ a.button.medium.price-button {
 	margin-bottom:1px;
 } 
 .pt-col-main {
-	background-color:#ffea00;
+	background-color:aqua;
 
 }
 h1.pt-col-main {
-	background-color:#ffea00;
+	background-color:aqua;
 	color:#414146;
 }
 .pt-col-main .currency, .pt-col-main .price, .pt-col-main .cents, .pt-col-main .place2 {
