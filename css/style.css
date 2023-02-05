@@ -280,7 +280,7 @@ body {
 	font-size: 14px;
 	line-height: 25px;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
-	font-weight: light;
+	font-weight: normal;
 	color: #7e8082;
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased !important;
@@ -2298,6 +2298,10 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   .ads-img-cont2 {
     padding-top:0px;
     padding-bottom:0px;
+  }
+
+  .ads-img-cont2 img {
+    width: 100%;
   }
 }
 
