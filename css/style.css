@@ -2279,12 +2279,20 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   transform:translate(-20%, 0%);
 }
 
+.ads-img-cont img{
+  
+}
+
 
 @media only screen and (max-width: 992px) {
   .ads-img-cont {
     padding-top:0px;
     padding-bottom:0px;
     transform:translate(0%, 0%);
+  }
+
+  .ads-img-cont img{
+    width: 100%;
   }
 }
 
