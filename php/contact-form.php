@@ -28,11 +28,11 @@ if (array_key_exists('email', $_POST)) {
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
     
-    $mail->setFrom('mah1202@naver.com', 'mah1202.com'); //**Write here sender email. For example, emails will be sent to you from your website, so write email of your website (if you don't have it, write any email, which you want) and the name of your website. Example ('email@your-website.com', 'your-website.com')) Send from a fixed, valid address in your own domain, perhaps one that allows you to easily identify that it originated on your contact form**
+    $mail->setFrom('contacts@nicesite.com', 'nicesite.com'); //**Write here sender email. For example, emails will be sent to you from your website, so write email of your website (if you don't have it, write any email, which you want) and the name of your website. Example ('email@your-website.com', 'your-website.com')) Send from a fixed, valid address in your own domain, perhaps one that allows you to easily identify that it originated on your contact form**
     
     //Send the message to yourself, or whoever should receive contact for submissions
     
-    $mail->addAddress('mah1202@naver.com'); //**WRITE HERE RECIPIENT EMAIL ADDRESS (AT THIS ADDRESS EMAILS WILL BE COME)**
+    $mail->addAddress('daruem@gmail.com'); //**WRITE HERE RECIPIENT EMAIL ADDRESS (AT THIS ADDRESS EMAILS WILL BE COME)**
     
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
@@ -45,11 +45,11 @@ if (array_key_exists('email', $_POST)) {
         $mail->CharSet = 'UTF-8';
         //Build a simple message body
         $mail->Body = <<<EOT
-Email: {$_POST['email']}
-Name: {$_POST['name']}
-Message: {$_POST['message']}
-EOT;
-    //Send the message, check for errors
+        Email: {$_POST['email']}
+        Name: {$_POST['name']}
+        Message: {$_POST['message']}
+        EOT;
+            //Send the message, check for errors
     if(!$mail->Send()) {
        $arrResult = array ('response'=>'error');
     }
